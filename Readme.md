@@ -34,7 +34,6 @@ The application employs a central exception handling mechanism. For instance, `H
 - Spring Web MVC
 - Maven
 - JUnit
-- OkHttp (if this is still relevant)
 
 ## Sample API Calls:
 
@@ -57,7 +56,7 @@ DELETE http://localhost:8080/tickets/delete/{id}
 
 ## Configuration
 
-This application uses application.properties for its configuration. Store your OpenAPI API credentials in this file as follows:
+This application uses application.properties for its configuration. Store your Zendesk API credentials in this file as follows:
 
 ```
 api.username=YOUR_USERNAME
